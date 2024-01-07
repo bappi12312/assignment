@@ -83,6 +83,103 @@
   font-weight: 700;
 }
 
-.main-container1:hover {
+.main-container1:hover , .main2-img:hover, .section3:hover {
   border: 2px dashed red;
 }
+
+/* main container2 or section 2 relatd style */
+
+
+.main2-img {
+  width: 78%;
+  height: 600px;
+  background-image: url('styles/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  
+}
+
+.container2-text {
+  position: absolute;
+  top: 126px;
+  left: 126px;
+}
+
+.main-container2 .main2-header {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+  display: inline;
+}
+
+.main-container2 .main2-paragraph {
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
+
+.main-container2 .main2-link {
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.year {
+  display: inline;
+  position: absolute;
+  right: 138px;
+  top: 68px;
+}
+
+
+/* section 3 deign */
+
+.section3 {
+  width: 78%;
+  height: 480px;
+  background-color: #ff00000e;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 .main-container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  text-align: center;
+}
+
+
+.section3 .container3-button > button {
+  align-items: center;
+  padding: 10px 12px;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background: #F00;
+  border: none;
+
+}
+
+.section3 .red {
+  color: #F00;
+}
+
+.shared-style {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #070211;
+}
+
