@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+/* shared related styles */
+
+* {
+  margin: 0;
+  border: border-box;
+  font-family: Merriweather;
+}
+
+/* header related styles */
+
+
+.header-container {
+  width: 1300px;
+  height: 600px;
+  background-image: url('styles/Banner\ Image.png');
+  background-repeat: no-repeat;
+  background-size: cover ;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  
+}
+
+
+.new-year-text1 {
+  font-weight: 400;
+  color: #050505;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.new-year-text2 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #221717e1;
+  
+  
+}
+
+.header-container:hover {
+  border: 2px dashed red;
+}
+
+
+/* first main section styles */
+
+
+.main-container1 {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main-container1 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main1-heading {
+  color: #F00;
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.paragraph1 {
+  color: #F00;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.paragraph2 {
+  color: #070211;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.main-container1:hover {
+  border: 2px dashed red;
+}
