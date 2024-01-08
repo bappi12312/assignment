@@ -401,6 +401,7 @@ width: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 120px;
 
 
 }
@@ -471,6 +472,64 @@ width: 480px;
   font-size: 20px;
   font-weight: 600;
 }
+
+/* footer style */
+
+footer {
+  width: 78%;
+  height: 610px;
+  background-color: #070211;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+footer header h3 {
+  width: 375px;
+  color: #FFF;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 100px;
+}
+
+footer header {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer header p {
+  color: #FFF;
+
+}
+
+ footer .head-contain .call-icon {
+  display: flex;
+   justify-content: center;
+  
+  flex-direction: column;
+}
+
+
+ footer .head-contain .world-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  column-gap: 5px;
+}  
+
+footer header .head-contain {
+  display: flex;
+  gap: 8px;
+  margin-top: 100px;
+}
+
+
+
+
+
 
 
 
