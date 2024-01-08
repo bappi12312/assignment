@@ -259,7 +259,7 @@
   margin: 0 auto;
   margin-top: 250px;
   position: relative;
-
+  margin-bottom: 60px;
 }
 
 
@@ -279,10 +279,14 @@
 }
 
 .section5 .section5-middle-text {
-  color: #F00;
+  color: black;
   font-size: 4rem;
   font-weight: 900;
   margin-top: 15px;
+}
+
+.section5 .section5-middle-text > span {
+  color: #F00;
 }
 
 .section5 .section5-bottom-text {
@@ -339,6 +343,133 @@ bottom: 50px;
 transform: rotate(-10deg);
 left: 250px;
 }
+
+/* section 6 style */
+
+
+.section6 {
+  width: 78%;
+  margin: 0 auto;
+
+}
+
+.section6 .section6-picture-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 15px;
+  margin-top: 50px;
+
+}
+
+.section6 .section6-picture-container img {
+width: 480px;
+  border-radius: 2px;
+  border: none;
+}
+
+.section6 .section6-top-text {
+  color: #F00;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.section6 .section6-middle-text {
+  color: #070211;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 17px;
+}
+
+.section6 .section6-bottom-text {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 896px;
+  margin-top: 20px
+
+}
+
+/* section7 style */
+
+.section7 {
+  width: 78%;
+  height: 616px;
+  background-color: rgba(255, 0, 0, 0.116);
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.section7 .section7-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.section7 .section7-container p{
+  text-align: center;
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 890px;
+
+}
+
+.section7 .section7-container img {
+  width: 150px;
+}
+
+.section7 .section7-container h3 {
+  color: #070211;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+
+.section7 .section7-container .email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section7 .section7-container .email > input {
+  width: 420px;
+  padding: 24px;
+  margin-right: -1px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #FFF;
+  border: none;
+  color: rgba(7, 2, 17, 0.30);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+
+
+}
+
+.section7 .section7-container .email > button {
+  width: 200px;
+  height: 71px;
+  border: none;
+  padding: 20px 50px ;
+  border-radius: 0px 50px 50px 0px;
+  background: rgba(255, 0, 0, 0.63);
+}
+
+
+
 
 
 
