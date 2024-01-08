@@ -24,7 +24,7 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 100px;
-  
+
 }
 
 
@@ -181,5 +181,73 @@
   font-size: 2rem;
   font-weight: 700;
   color: #070211;
+}
+
+/* section 4 styles */
+
+
+.section4 {
+  width: 78%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.section4 .section4-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section4-top-text {
+  color: #F00;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.section4-middle-text {
+  color: #070211;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+
+.section4-bottom-text {
+  width: 300px;
+  height: 128px;
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.section4 .section4-img img {
+  width: 350px;
+  border: 15px solid #F00;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.section4 .section4-right-text .right-side-top-text {
+  color: #F00;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+
+.section4 .section4-right-text .right-side-middle-text {
+  width: 276px;
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 1.1rem;
+  font-weight: 400;
+
+}
+
+
+.section4 .section4-right-text img {
+  width: 140px;
+  margin-top: 40px;
 }
 
