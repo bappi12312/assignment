@@ -340,8 +340,8 @@ width: 600px;
 position: absolute;
 z-index: 3;
 bottom: 50px;
-transform: rotate(-10deg);
-left: 250px;
+transform: rotate(-5deg);
+left: 30px;
 }
 
 /* section 6 style */
